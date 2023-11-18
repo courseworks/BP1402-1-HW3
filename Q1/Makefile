@@ -4,7 +4,7 @@ LDFLAGS = -std=c++17
 
 OBJECTS = src/remove_characters.o test/remove_characters_test.o test/main.o
 
-TARGET = test_q2
+TARGET = test_q1
 
 $(TARGET): $(OBJECTS)
 	$(CC) $(LDFLAGS) $(OBJECTS) -lgtest -o $(TARGET)
